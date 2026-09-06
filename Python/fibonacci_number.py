@@ -12,6 +12,3 @@ print(__name__)
 n=int(input("Enter the position: "))
 print("The Fibonacci Number:",fib(n))
 
-
-"""for i in range(n+1):
-       print(fib(i),end=" ")"""
