@@ -2,7 +2,7 @@
 # Ex: Silent and Listen 
 
 def anagram(s1,s2):
-    if sorted(s1.lower())==sorted(s2.lower()):
+    if sorted(s1.strip().lower())==sorted(s2.strip().lower()):
         print(s1,s2,"are Anagrams")
     else:
         print(s1,s2,"are not Anagrams")
